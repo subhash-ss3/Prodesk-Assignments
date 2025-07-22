@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey-form.css">
+    <title>survey-form</title>
+</head>
+
+<body>
+    <div id="main-container">
+        <header>
+            <h1>Survey Form</h1>
+            <p>User stories survey form</p> 
+        </header>
+        <main>
+            <form id="survey-form" action="">
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="input-text" id="name" placeholder="Enter Name">
+                    </div>
+                </div>
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="input-text" id="email" placeholder="Enter E-mail">
+                    </div>
+                </div>
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label for="number">Work Experience:</label>
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="input-text" placeholder="Enter Number">
+                    </div>
+                </div>
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label for="dropdown">Are you comfortable in investing in real estate on platform without first
+                            investigating properly:
+                        </label>
+                    </div>
+                    <div class="input-div">
+                        <select name="dropdown" id="dropdown">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label for="textarea">Suggestions to build trusted platform:</label>
+                    </div>
+                    <div class="input-div">
+                        <textarea name="textarea" id="textarea" rows="" cols=""></textarea>
+                    </div>
+                </div>
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label>You are ready to invest in:</label>
+                    </div>
+                    <div class="input-div">
+                        <label for="real-estate">
+                            <input type="checkbox" name="real-estate" value="real-estate">Real Estate
+                        </label>
+                        </br>
+                        <label for="mutual-funds">
+                            <input type="checkbox" name="mutual-funds" value="mutual-funds">Mututal Funds
+                        </label>
+                        </br>
+                        <label for="crypto">
+                            <input type="checkbox" name="crypto" value="crypto">Crypto Currency
+                        </label>
+                        </br>
+                        <label for="stocks">
+                            <input type="checkbox" name="stocks" value="stocks"> Stocks & Bonds
+                        </label>
+                    </div>
+                </div>
+                <div class="main-div-each">
+                    <div class="label-div">
+                        <label>Are you ready for further contact:</label>
+                    </div>
+                    <div class="input-div">
+                        <label>
+                            <input type="radio" name="further-contact" value="yes">Yes
+                        </label>
+                        </br>
+                        <label>
+                            <input type="radio" name="further-contact" value="no">No
+                        </label>
+                    </div>
+                </div>
+                <div id="submit-btn">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
