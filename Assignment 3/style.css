@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(247, 229, 206);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header{
+    text-align: center;
+}
+.header,p{
+    margin-bottom: 20px;
+}
+.form-div{
+    padding: 30px 0px 0px 30px;
+}
+.main-container{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(3, 1, 1, 0.5);
+    font-weight: bold;
+}
+#billamount{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#tippercentage{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#calculate-btn{
+   width: 90%; 
+   height: 30px;
+   font-size: 20px;
+   font-weight: bold;
+   background-color:green;
+   border: none;
+}
+#result{
+    font-size: 20px;
+}
+#calculate-btn:active{
+    color: white;
+}
+#result{
+  margin-top: 10px;
+}
