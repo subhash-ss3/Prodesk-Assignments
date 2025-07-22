@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#main-container {
+    margin-top: 100px;
+    background-color: rgb(137, 188, 137);
+    width: 500px;
+    height: 450px;
+}
+
+#from-section {
+    margin-top: 3rem;
+}
+
+header {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.input-div {
+    padding: 30px;
+    height: 20px;
+}
+
+.input-text {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+#btn-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.signup-btn {
+    width: 130px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(83, 152, 83);
+    border: none;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-top: 20px;
+}
+
+
+
+.fb-div {
+    padding-bottom: 50px;
+    padding-top: 8px;
+    border: 1px solid black;
+    width: 90px;
+    height: 50px;
+    border-radius: 30px;
+    color: #0d3b9d;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .gg-div{
+    padding-top:6px;
+    border: 1px solid black;
+    width: 70px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 40px;
+    color: rgb(239, 60, 15);
+} */
+
+
+
+:root {
+    --orange: #EA4335;
+    --blue: #4285F4;
+    --green: #34A853;
+    --yellow: #FBBC05;
+}
+
+.google-logo {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-top: 10px solid var(--orange);
+    border-right: 10px solid var(--blue);
+    border-bottom: 10px solid var(--green);
+    border-left: 10px solid var(--yellow);
+    border-radius: 50%;
+}
+
+.gg-div {
+    padding-top: 8px;
+    padding-left: 25px;
+    width: 90px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.google-logo::before {
+    content: "";
+    position: absolute;
+    background-color: var(--blue);
+    width: 15px;
+    height: 10px;
+    top: 50%;
+    transform: translateY(-56%);
+}
+
+.google-logo::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-top: 15px solid transparent;
+    border-right: 20px solid rgb(137, 188, 137);
+}
